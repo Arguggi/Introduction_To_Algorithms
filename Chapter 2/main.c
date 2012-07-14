@@ -1,3 +1,6 @@
+//Author: Ruggero D'Alò
+//Chapter 2 algorithms test
+
 #include "Sort.h"
 #include <time.h>
 #include <stdio.h>

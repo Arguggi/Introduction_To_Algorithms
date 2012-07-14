@@ -1,3 +1,6 @@
+//Author: Ruggero D'Alò
+//Chapter 2 algorithms implementation
+
 #include "Sort.h"
 
 void insertion_sort(int * array,int size)
