@@ -1,4 +1,5 @@
 //Author: Ruggero D'Alò
+//Chapter 5 algorithms
 
 #include "random.h"
 
