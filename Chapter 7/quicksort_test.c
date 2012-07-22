@@ -15,7 +15,7 @@ int main(void){
 
   randomized_quicksort(array,sizeof(array)/sizeof(int));
 
-  puts("After sorting");
+  puts("\nAfter sorting");
   for(i=0;i< sizeof(array)/ sizeof(int);i++){
     printf("%d ", array[i]);
   }
