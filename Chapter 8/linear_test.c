@@ -1,5 +1,5 @@
 //Author: Ruggero D'Alò
-//Chapter 7 algorithms test
+//Chapter 8 algorithms test
 #include <stdio.h>
 #include "linear.h"
 #define SIZE 20
