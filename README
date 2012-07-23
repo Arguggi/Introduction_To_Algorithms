@@ -1,3 +1,24 @@
-Reading Introduction to Algorithms and implementing them in C
+# Introduction to Algorithms
+=============
+The Algorithms will be written in C
 
-I'm also learning to use Git in the mean time, so probably this GitHub repository won't be perfect.
+I compile my code via GCC using the following parameters:
+	-Wall -Wextra -std=c99 -pedantic
+
+## Algorithms not yet implemented
+-------------
+Chapter 4:	Strassen multiplication
+			Non square matrix multiplication
+
+Chapter 6:	Priority queue
+
+Chapter 7:	Hoare Partition
+
+Chapter 8:	Radix sort
+			Bucket sort
+
+## Side Notes
+-------------------
+I'm learning how to use Git in the mean time, so this GitHub repository won't be perfect.
+
+
