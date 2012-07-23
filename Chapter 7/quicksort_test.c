@@ -4,8 +4,7 @@
 #include "quicksort.h"
 
 int main(void){
-
-  int array[] = {13,19,9,5,12,8,7,4,21,2,6,11};
+  int array[] = {155,-59,18,29,544,26,31,47,59,846,25,59};
   unsigned int i=0;
 
   puts("Before sorting");
@@ -19,7 +18,6 @@ int main(void){
   for(i=0;i< sizeof(array)/ sizeof(int);i++){
     printf("%d ", array[i]);
   }
-
   getchar();
 return 0;
 }
