@@ -4,7 +4,8 @@
 #include "Sort.h"
 #include <time.h>
 #include <stdio.h>
-#define LENGTH 1000
+#include <stdlib.h>
+#define LENGTH 50
 
 int main(void)
 {

@@ -1,7 +1,7 @@
 # Introduction to Algorithms #
 The Algorithms are all written in C.
 
-I compile my code with GCC using the following flags:
+Compilation with these flags is error/warning free:
 > -Wall -Wextra -std=c99 -pedantic
 
 ## Algorithms not yet implemented ##
@@ -20,4 +20,5 @@ I compile my code with GCC using the following flags:
        + Bucket sort
 
 ## Side Notes ##
-I'm learning how to use Git in the mean time, so this GitHub repository won't be perfect.
+
+Doxygen documentation is being written.
