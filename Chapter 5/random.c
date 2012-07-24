@@ -11,7 +11,7 @@ void randomized_hire_assistant(int *array, int size){
     random[i] = rand() % (size*size*size);
     printf(".%d.", random[i]);
   }
-  for (j=1;j<size;j++){ // Orders the random array and changes the original one accordingly
+  for (j=1;j<size;j++){
     key = random[j];
     i = j-1;
     while (i>=0 && random[i]>random[i+1]){

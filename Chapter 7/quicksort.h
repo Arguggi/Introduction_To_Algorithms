@@ -1,6 +1,5 @@
-//Author: Ruggero D'Alò
-
 /** \file quicksort.h
+    \author Ruggero Dalo
     \brief Quicksort Algorithms
 */
 
@@ -9,6 +8,7 @@
     \param array Array to be sorted
     \param l Low/Left index
     \param h High/Right index
+    \return Returns index of the pivot
 */
 
 /** \fn void quicksort_algo(int *array,int l,int h)
@@ -16,7 +16,7 @@
     \param array Array to be sorted
     \param l Low/Left index
     \param h High/Right index
-    \warning The wrapper funtion,quicksort,is recommended.
+    \note Using the wrapper funtion, quicksort, is recommended.
 */
 
 /** \fn void quicksort(int *array,int size)
@@ -30,6 +30,7 @@
     \param array Array to be sorted
     \param l Low/Left index
     \param h High/Right index
+    \return Returns index of the pivot
 */
 
 /** \fn void randomized_quicksort_algo(int *array,int l,int h)
@@ -37,7 +38,7 @@
     \param array Array to be sorted
     \param l Low/Left index
     \param h High/Right index
-    \warning The wrapper funtion,randomized_quicksort,is recommended.
+    \note Using the wrapper funtion, randomized_quicksort, is recommended.
 */
 
 /** \fn void randomized_quicksort(int *array,int size)

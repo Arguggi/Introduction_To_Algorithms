@@ -22,7 +22,7 @@
 */
 
 /** \fn void merge(int *array, int l,int m,int h)
-    \brief Merges and sortes 2 subarrays
+    \brief Merges and sorts 2 subarrays
     \param array Array to be sorted
     \param l Low/Left index
     \param m Medium/Middle index
