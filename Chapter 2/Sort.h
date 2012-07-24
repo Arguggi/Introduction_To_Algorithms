@@ -1,4 +1,4 @@
-/** \file quicksort.h
+/** \file Sort.h
     \author Ruggero Dalo
     \brief Sorting Algorithms
 */
