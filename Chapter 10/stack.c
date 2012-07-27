@@ -36,7 +36,6 @@ int StackRealloc(stack* S){
 int push(stack* S,int x){
   if (StackFull(S)){
     if (StackRealloc(S)){
-      printf("\n REALLOC\n");
       S->index++;
       S->array[S->index] = x;
       return 0;
@@ -49,9 +48,7 @@ int push(stack* S,int x){
   else {
     S->index++;
     S->array[S->index] = x;
-    printf("%d : %d (INDEX:%d)\n",x,S->array[S->index],S->index);
     return 0;
-
   }
 }
 
