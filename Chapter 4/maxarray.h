@@ -3,13 +3,6 @@
     \brief Maximum subarray Algorithms
 */
 
-/** \struct Max maxarray.h "Chapter 4/maxarray.h"
-    \brief Struct containing 2 indexs and the sum of array[maxlf] to array[maxrt]
-    \param maxlf Left index of the maximum subarray
-    \param maxrt Right index of the maximum subarray
-    \param maxsum Sum of the elements from array[maxlf] to [maxrt]
-*/
-
 /** \fn Max * max_crossing_sub(int *array, int l,int h)
     \brief Finds maximum sum of elements crossing the (l+h)/2 index
     \param array Integer Array
@@ -48,11 +41,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct Maxtag
-{
-  int maxlf;
-  int maxrt;
-  int maxsum;
+/** \struct Max maxarray.h "Chapter 4/maxarray.h"
+    \brief Struct containing 2 indexs and the sum of array[maxlf] to array[maxrt]
+*/
+
+typedef struct{
+  int maxlf;  /**< Left index of the maximum subarray */
+  int maxrt;  /**< Right index of the maximum subarray */
+  int maxsum; /**< Sum of the elements from \c array[maxlf] to \c array[maxrt] */
 }Max;
 
 Max * max_crossing_sub(int *array, int l,int h);
