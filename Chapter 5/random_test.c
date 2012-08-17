@@ -10,12 +10,12 @@ int main(void)
 
   puts("Ordered:");
   for(i=0;i<SIZE;i++){
-    array[i] = i+1
+    array[i] = i+1;
     printf("%d\n", array[i]);
   }
   randomized_hire_assistant(array, SIZE);
 
-  puts("Randomized:");
+  puts("\nRandomized:");
   for(i=0;i<SIZE;i++){
     printf("%d\n", array[i]);
   }

@@ -3,7 +3,8 @@
 #include "heap.h"
 
 int main(void){
-  int array[] = {5, 13, 2, 25, 7, 17, 20, 8, 4},i=0;
+  int array[] = {5, 13, 2, 25, 7, 17, 20, 8, 4};
+  unsigned int i=0;
   puts("Before heapsort");
   for (i=0;i<sizeof(array)/sizeof(int);i++){
     printf("%d ", array[i]);

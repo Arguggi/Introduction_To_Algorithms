@@ -23,7 +23,7 @@ int main(void)
    //insertion_sort(array,sizeof array /(int)sizeof(int));
    //reverse_insertion_sort(array,sizeof array /(int)sizeof(int));
    //insertion_sort(array,sizeof array /(int)sizeof(int));
-   //merge_sort(array,0,LENGTH-1);
+   merge_sort(array,0,LENGTH-1);
 
    printf("\nSorted array?\n");
    for(i=0; i<LENGTH; i++)

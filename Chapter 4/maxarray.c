@@ -28,7 +28,6 @@ return max_array;
 }
 
 Max * max_subarray(int *array,int l,int h){
-  int i=0;
   Max * crossing=NULL;
   Max * array_left=NULL;
   Max * array_right=NULL;
