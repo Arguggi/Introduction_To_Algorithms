@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -Wextra -std=c99 -pedantic
+CFLAGS=-Wall -Wextra -Werror -std=c99 -pedantic
 OBJ_LIST = list.o list_test.o
 OBJ_QUEUE = queue.o queue_test.o
 OBJ_STACK = stack.o stack_test.o

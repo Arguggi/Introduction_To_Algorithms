@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -Wextra -std=c99 -pedantic
+CFLAGS=-Wall -Wextra -Werror -std=c99 -pedantic
 OBJ_MATRIX = matrix.o matrix_test.o
 OBJ_MAXARRAY = maxarray.o maxarray_test.o
 

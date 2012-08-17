@@ -1,6 +1,6 @@
 INCLUDE = -I "../Chapter 7/"
 CC=gcc
-FLAGS=-Wall -Wextra -std=c99 -pedantic
+CFLAGS=-Wall -Wextra -Werror -std=c99 -pedantic
 OBJ = medians_test.o medians.o quicksort.o
 QSPATH = ../Chapter\ 7/
 

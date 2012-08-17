@@ -1,6 +1,5 @@
-
 CC=gcc
-CFLAGS=-Wall -Wextra -std=c99 -pedantic
+CFLAGS=-Wall -Wextra -Werror -std=c99 -pedantic
 OBJ = linear.o linear_test.o
 
 linear : $(OBJ)

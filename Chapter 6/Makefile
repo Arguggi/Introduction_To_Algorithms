@@ -1,6 +1,5 @@
-
 CC=gcc
-CFLAGS=-Wall -Wextra -std=c99 -pedantic
+CFLAGS=-Wall -Wextra -Werror -std=c99 -pedantic
 OBJ = heap.o heap_test.o
 
 heap : $(OBJ)
