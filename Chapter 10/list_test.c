@@ -16,10 +16,10 @@ int main(void){
 
   putchar('\n');
 
-  NodeDelete(&List, 15);
+  NodeDelete(&List, 2);
 
-  if ((Temp = ListSearch(List,15))){
-    printf("Returned address:%p", Temp);
+  if ((Temp = ListSearch(List,3))){
+    printf("Returned address:%p\n", (void*)Temp);
   }
 
   PrintList(List);

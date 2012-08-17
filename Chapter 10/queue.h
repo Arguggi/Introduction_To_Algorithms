@@ -3,7 +3,7 @@
     \brief queue Algorithms
 */
 
-/** \fn int queueInit(queue* Q,int size)
+/** \fn int QueueInit(queue* Q,int size)
     \brief Initializes queue structure
     \arg Checks for malloc failure
   \param Q Pointer to an already allocated queue struct
@@ -49,7 +49,7 @@ typedef struct
 	int elements; /**< Number of elements inserted in the queue */
 }queue;
 
-int queueInit(queue* Q,int size);
+int QueueInit(queue* Q,int size);
 void Enqueue(queue* Q,int x);
 int Dequeue(queue* Q);
 void QueueDestroy(queue* Q);
