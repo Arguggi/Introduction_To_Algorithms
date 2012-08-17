@@ -2,9 +2,9 @@
 //Chapter 9 algorithms
 
 #include "medians.h"
-#include "..\Chapter 7\quicksort.h"
+#include "../Chapter 7/quicksort.h"
 
-int select_algo(int* array,int l,int h,int i){
+int selectf_algo(int* array,int l,int h,int i){
 
   int m=0;
 
@@ -17,18 +17,18 @@ int select_algo(int* array,int l,int h,int i){
     return array[m];
   }
   else if(i<m){
-    return select_algo(array,l,m-1,i);
+    return selectf_algo(array,l,m-1,i);
   }
   else if(i>m){
-    return select_algo(array,m+1,h,i);
+    return selectf_algo(array,m+1,h,i);
   }
 return -1; //Needed for GCC warnings
 }
-int select(int* array,int size,int rank){
-  return select_algo(array,0,size-1,rank-1);
+int selectf(int* array,int size,int rank){
+  return selectf_algo(array,0,size-1,rank-1);
 }
 
-int randomized_select_algo(int* array,int l,int h,int i){
+int randomized_selectf_algo(int* array,int l,int h,int i){
   int m=0;
 
   if(l==h){
@@ -40,16 +40,16 @@ int randomized_select_algo(int* array,int l,int h,int i){
     return array[m];
   }
   else if(i<m){
-    return randomized_select_algo(array,l,m-1,i);
+    return randomized_selectf_algo(array,l,m-1,i);
   }
   else if(i>m){
-    return randomized_select_algo(array,m+1,h,i);
+    return randomized_selectf_algo(array,m+1,h,i);
   }
 return -1; //Needed for GCC warnings
 }
 
-int randomized_select(int* array,int size,int rank){
-  return randomized_select_algo(array,0,size-1,rank-1);
+int randomized_selectf(int* array,int size,int rank){
+  return randomized_selectf_algo(array,0,size-1,rank-1);
 }
 
 
