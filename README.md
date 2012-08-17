@@ -2,7 +2,7 @@
 The Algorithms are all written in C.
 
 Compilation with these flags is error/warning free:
-> -Wall -Wextra -std=c99 -pedantic
+> -Wall -Wextra -Werror -std=c99 -pedantic
 
 ## Algorithms not yet implemented ##
 + Chapter 4
@@ -18,6 +18,9 @@ Compilation with these flags is error/warning free:
 + Chapter 8: 
   + Radix sort
   + Bucket sort
+  
++ Chapter 12:
+  + Delete tree node
 
 ## Chapter Contents ##
 + Chapter 2:
@@ -41,7 +44,10 @@ Compilation with these flags is error/warning free:
   + Double linked list
   + Queue structure
   + Stack structure
++ Chapter 12:
+  + Tree structure
 
-## Side Notes ##
+## Extra ##
 
-Doxygen documentation is being written.
++ Doxygen documentation *.h
++ Makefile in every chapter
