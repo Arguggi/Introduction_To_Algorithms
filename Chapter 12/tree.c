@@ -47,6 +47,13 @@ void InorderPrintTree(Node* Head){
 return;
 }
 
+void PostorderPrintTree(Node* Head){
+  if (Head == NULL) return;
+  PostorderPrintTree(Head->left);
+  PostorderPrintTree(Head->right);
+  printf("%d ", Head->key);
+  return;
+}
 Node* TreeMinimum(Node* Head){
   while(Head->left != NULL){
     Head = Head->left;
@@ -76,28 +83,15 @@ void TreeDelete(Node* Head){
   return;
 }
 
+int TreeSize(Node* Head){
+  if (Head == NULL) return 0;
+  else return 1 + TreeSize(Head->left) + TreeSize(Head->right);
+}
 
+int MaxDepth(Node* Head){
+  if (Head == NULL) return 0;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  if (MaxDepth(Head->left) >= MaxDepth(Head->right))
+    return MaxDepth(Head->left) + 1;
+  else return (MaxDepth(Head->right) + 1);
+}
